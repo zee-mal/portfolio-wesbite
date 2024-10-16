@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    color: aliceblue;
+    background-color: sandybrown;
+    display:flex;
+    /*gap: 10em;em,vh,vw,px,*/
+}
+
+h1{
+    color:rgb(217, 84, 106);
+  }
+
+img{
+    border:5px purple solid;
+border-radius: 10px;
+display: block;
+width: 25%;
+margin-left: auto;
+
+}
+
+img:hover{
+    scale:2;
+    cursor: pointer;
+}
+
+.positive{
+    background-color:skyblue;
+}
+
+.negative{
+    background-color:lightblue;
+}
