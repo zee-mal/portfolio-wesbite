@@ -1,12 +1,13 @@
-body{
+section{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-color:antiquewhite;
 }
 nav{
     color: aliceblue;
-    background-color: sandybrown;
+    
     display:flex;
+    gap:2em;
     /*gap: 10em;em,vh,vw,px,*/
 }
 
@@ -14,17 +15,21 @@ h1{
     color:rgb(217, 84, 106);
   }
 
-img{
-    border:5px purple solid;
+.me{
 border-radius: 10px;
+align-items: center;
 display: block;
 width: 25%;
-margin-left: auto;
-
+margin: center;
 }
-
-img:hover{
-    scale:2;
+header{
+    background-color: rgb(46, 46, 46);
+}
+footer{
+    background-color: rgb(46, 46, 46);
+}
+.me:hover{
+    scale:3;
     cursor: pointer;
 }
 
