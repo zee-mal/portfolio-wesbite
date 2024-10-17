@@ -3,6 +3,10 @@ section{
     flex-direction: column;
     background-color:antiquewhite;
 }
+
+body{
+    width: 2;
+}
 nav{
     color: aliceblue;
     
@@ -24,19 +28,30 @@ margin: center;
 }
 header{
     background-color: rgb(46, 46, 46);
+font-size: 4;
+color: pink;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
 }
+
 footer{
     background-color: rgb(46, 46, 46);
+    text-align: center;
 }
 .me:hover{
     scale:3;
     cursor: pointer;
 }
-
-.positive{
-    background-color:skyblue;
+.text-left{
+    text-align:justify;
 }
-
-.negative{
-    background-color:lightblue;
+nav#left ul{
+    list-style-type: none;
+    padding: 20;
+}
+nav#left a.current{
+    background-color: white;
+}
+header p#text{
+text-align: right;
 }
